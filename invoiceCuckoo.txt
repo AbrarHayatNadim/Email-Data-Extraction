@@ -1,0 +1,44 @@
+Invoice
+
+To
+TFP RETAIL SDN BHD
+1047864H
+D-1-5 SUNWAY NEXIS
+NO. 1 JALAN PJU 5/1
+KOTA DAMANSARA
+47810 PETALING JAYA SELANGOR
+Invoice No. : TI51029553
+Date : 01/10/2023
+Due Amount Payment Due
+(RM) Date
+123.00 07/10/2023
+Biller Code: 69435
+Ref-1: AB784953
+Ref-2: [Contact Number]
+JomPAY online at Internet and Mobile
+Banking with your Current, Savings or
+Credit Card account
+
+No. Description Total (RM)
+
+1 Rental Bill - AB784953 - Month 3 To 3 123.00
+Rental Period : 01/10/2023 ~ 31/10/2023
+
+For product (WATER PURIFIER) :
+CP-QN1401SW - QUEEN STAND
+Serial Number : 2305CIM00801
+Installation Address :
+LOT G-26, GF HARTAMAS SHOPPING CENTER
+NO. 60, JALAN SRI HARTAMAS1
+KUALA LUMPUR
+50480 SRI HARTAMAS WP KUALA LUMPUR
+
+Total Amount 123.00
+
+Note :
+1. Goods sold are not returnable, exchangeable or refundable.
+2. Any complaints regarding this bill should be lodge within seven (7) days from the date hereof
+3. All cheque to be crossed and payable to the order of Cuckoo International (MAL) Sdn Bhd
+4. Kindly send your payment slip to rm@cuckoo.com.my
+
+This is a computer generated printout and no signature is required.

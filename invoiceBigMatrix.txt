@@ -1,0 +1,34 @@
+BIG MATRIX SDN BHD
+(Company No: 864853-P)
+(Tax No: W10-1808-31013034)
+Lot L1.02(ii), Pusat Beli Belah KL Gateway,
+No 2, Jalan Kerinchi, Gerbang Kerinchi Lestari,
+59200 Kuala Lumpur.
+Tel: 03-7941 1199    Email: ccd_ppd@bigmatrix.com.my
+Bill To Electricity Bill
+TFP RETAIL SDN BHD Invoice No : BL00031704
+D-1-5, Sunway Nexis, No 1, Jalan PJU 5/1, Kota Date : 01/12/2023
+Damansara, Petaling Jaya, 47810, Selangor. Terms : 30 Days
+Account No : LG1.18/00
+Consumption Period: 01/11/2023 - 30/11/2023 Type: A
+Meter Serial Previous Reading Current Reading Consumption
+Number (kWh) (kWh) (kWh)
+201510003245 7514139.2 7605787.2 91,648.00
+Charges Tariff: B Factor: 1
+Block (kWh) Consumption (kWh) Rate (RM/kWh) Charges (RM)
+0 - 200 200.00 0.435 87.00
+> 200 91,448.00 0.509 46,547.03
+Amount Due (RM) Consumption Charge 46,634.03
+ICPT (RM0.037) 3,390.98
+50,771.15 Total Charge 50,025.01
+Please pay before 31 Dec 2023 to KWTBB (1.6%) 746.14
+avoid late payment surcharge Rounding 0.00
+Total Amount 50,771.15
+Amount Due 50,771.15
+NOTES
+You may complete your payment via Jompay:
+Biller Code: 330498
+Ref-1: LG1.18/00
+
+JomPAY online at Internet and Mobile Banking with your
+Current, Savings or Credit Card account

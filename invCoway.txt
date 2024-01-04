@@ -1,0 +1,59 @@
+TFP RETAIL SDN BHD Invoice
+NUR AZURA BINTI HASHIM
+D-1-5, SUNWAY NEXIS, NO.1, JALAN PJU 5/1, Invoice Date : 01/12/2023
+KOTA DAMANSARA Invoice No. : BR4334151281
+47810 PETALING JAYA SELANGOR
+MALAYSIA Customer No. : 3293932
+Page No. : Page 1 of 1
+
+No Description Amount
+RM
+1 RENTAL MONTH : Dec-2023 132.00
+
+Sales Type : Rental
+Order No. : 3293932
+Product Name : CHP-671L (CORE)
+Serial No. : 10102EKI1971600105
+Installation Location : LOT G06-08 ANCHOR 2A-2C
+GROUND FLOOR MALL OF MEDINI NO 4 LEBUH MEDINI UTARA ISKANDAR PUTRI
+ISKANDAR PUTERI
+79200 NUSAJAYA JOHOR
+MALAYSIA
+Installation Date : 21/09/2019
+PO No. :
+Billing Period : 51
+
+Current Charges 132.00
+
+Summary of Accounts
+RM
+Current charges 132.00
+Previous balance 0.00
+Total outstanding as of 30/11/2023 132.00
+Remark
+
+Our rental billing cycle process is listed as follows:
+* 26th of preceeding month  : Generate invoice for monthly rental fee
+* 27th of preceeding month  : Mail invoice to customer's address
+* Last day of current month  : Payment due date
+
+Our preferred payment channels are Coway-CIMB Virtual Account and JomPAY, unless otherwise expressly agreed in writing:
+
+Coway-CIMB Virtual Account               : 98 9920 0147 2400
+Recipient Reference / Transfer Detail  : BR4334151281 32939324
+BR4334151281
+Once payment is made, please log on to coway.com.my/enquiry and submit the payment receipt (with Inv no.)
+by selecting Payment Update
+
+E & O.E.
+1) All cheque shall be crossed "Account Payee Only" and payable to "COWAY (MALAYSIA) SDN. BHD."
+2) All record and entries shown are deemed to be correct unless Coway is notified on any discrepancies within 30 days from the invoice date.
+3) Auto Debit / Direct Card & E-Mandate are available for rental scheme. You may request for further information from your Coway Lady (CODY) during maintenance service.
+4) Maintenance service will be interrupted for long overdue amount.
+5) No retrospective discount is given for the outstanding rental fees which are billed before advance rental payment is received. The discount period for advance rental payment shall begin from the
+following month upon payment is received.
+6) Please disregard the overdue charges if payment has been made after issuance of this invoice.
+7) For customers with multiple products, the total outstanding shown above is aggregate amount due for all the products under rental scheme, including new product(s) added into rental scheme during
+the month.
+
+For any inquiries please log on to coway.com.my/enquiry. This is a computer-generated invoice. No signature is required.
