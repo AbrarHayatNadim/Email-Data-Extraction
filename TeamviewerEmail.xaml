@@ -1,0 +1,222 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="test_ee" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="678,2510" sap2010:WorkflowViewState.IdRef="test_ee_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:um="clr-namespace:UiPath.Mail;assembly=UiPath.Mail.Activities" xmlns:umab="clr-namespace:UiPath.Mail.Activities.Business;assembly=UiPath.Mail.Activities" xmlns:umabh="clr-namespace:UiPath.Mail.Activities.Business.HtmlEditor;assembly=UiPath.Mail.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>UiPath.PDF.Activities</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>UiPath.Platform.ResourceHandling</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Mail.Activities.Business</x:String>
+      <x:String>UiPath.Mail</x:String>
+      <x:String>UiPath.Mail.Activities</x:String>
+      <x:String>UiPath.Mail.Activities.Utils</x:String>
+      <x:String>UiPath.Mail.Activities.Business.HtmlEditor</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.ComponentModel</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.PDF.Activities</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.ViewModels</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="test_ee" sap:VirtualizedContainerService.HintSize="688,2445" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Name="t" />
+      <Variable x:TypeArguments="x:String" Name="ss" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:StartProcess Arguments="{x:Null}" WorkingDirectory="{x:Null}" DisplayName="Start Process" FileName="C:\Program Files (x86)\TeamViewer\TeamViewer.exe" sap:VirtualizedContainerService.HintSize="626,88" sap2010:WorkflowViewState.IdRef="StartProcess_1" />
+    <Delay Duration="00:00:03" sap:VirtualizedContainerService.HintSize="626,90" sap2010:WorkflowViewState.IdRef="Delay_1" />
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Application: TeamViewer" sap:VirtualizedContainerService.HintSize="626,1929" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="c12f3821-f481-44dd-bf96-b32ac204a006" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="592,1638" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <Sequence.Variables>
+              <Variable x:TypeArguments="x:String" Name="passwordForTeamViewer" />
+              <Variable x:TypeArguments="x:String" Name="pass" />
+            </Sequence.Variables>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Create new'" sap:VirtualizedContainerService.HintSize="530,157" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="c12f3821-f481-44dd-bf96-b32ac204a006" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable DesignTimeRectangle="535, 318, 32, 36" DesignTimeScaleFactor="1" ElementType="Button" FriendlyName="'Create new'" FullSelectorArgument="&lt;ctrl name='Create new random password' role='push button' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Create new random password' role='push button' automationid='' check:text='Create new random password' /&gt;" Guid="98698c79-f5a2-4f20-a5a1-19afe847e57a" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACQAAAAoCAYAAACWwljjAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGASURBVFhH7ZVNSwJRFIb7x0Jqm2bCNrawjRkkZosmjDJN+5AoS1qURF82GG2KVpWYWeIfeONcEGQ605kZEVzcxYMX3zvwcOa9d6Z+en1MElpIQgtJaCEJLSShhSRGFrq7b6C8t49MZhVb23lcXNbR6XTZvV4ILPT88opEYhGmOYdcbhPV0zPkdwrqv1nDgG032eckAgl9tNqIRmeUQPe79yenKU2Hw2p6zkwikFAqtaymwmUDSIakSZ7L3fAt9PbeQigUYifjhHpF/eIyNzwLNR5stD+/cHxSVROidaVyxO4dMNjLZW54FiqVyojHF1AoFLGSTqu1l9dGpecyN3y9MsvagGGaCEcias3tGaZWO0cyucRmbvjuEImsWxabOclm18bXIb/QPUSnjA4Bl7sxFiHqDt1D9foVm//HSEJ0rGOxeRSLu7i+ucXBYUWdKppMEBli5Ak1H59Ur+iTQb9UZL+X4TBj61BQtJCEFpLQQhJaSEILSWghCS0kMWFCffwCQoc1vYKuVi0AAAAASUVORK5CYII=" InformativeScreenshot="8ad8bd1365fdad9357b6da8a37d55354.png" ScopeSelectorArgument="&lt;wnd app='teamviewer.exe' cls='MainWindowFull' title='TeamViewer' /&gt;" SearchSteps="Selector, FuzzySelector, Image" Version="V2" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target CvTextArea="303, 158, 222, 22" CvTextArgument="Allow Remote Control" CvType="Text" DesignTimeRectangle="305, 153, 270, 32" ElementType="Text" FriendlyName="'Allow Remote Control'" FullSelectorArgument="&lt;ctrl name='Allow Remote Control' role='text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Allow Remote Control' role='text' automationid='' check:text='Allow Remote Control' /&gt;" ImageBase64="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" SearchSteps="Selector, FuzzySelector, Image, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Copy your'" sap:VirtualizedContainerService.HintSize="530,157" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="c12f3821-f481-44dd-bf96-b32ac204a006" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable DesignTimeRectangle="535, 245, 32, 37" DesignTimeScaleFactor="1" ElementType="Button" FriendlyName="'Copy your'" FullSelectorArgument="&lt;ctrl name='Copy your ID to clipboard' role='push button' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Copy your ID to clipboard' role='push button' automationid='' check:text='Copy your ID to clipboard' /&gt;" Guid="6e939448-cc2c-4e62-a198-1f4e9ba4949b" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACQAAAApCAYAAABdnotGAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADGSURBVFhH7dUxCsIwFMZxT5spe65Qr1BRd7XOdatjEfUAirsiKL3AE4dCW59+JmjJ8A0/KC19/UNDMrjdK4kJgxAGIQxCGIQwCGEQwiDEKyjPVzKbL75SFGt1BuIVZIxRP67pLUi7/0vBQefLVba7PXQ4nlozkOCgLFuKc06SZPiRtbY1AwkOqtdK87nG9zczCGEQwiDEK+i50dXXUQQ1RRmUpqOXo6Krt6Cy3KhHRdd4MlXffyc46F8YhDAIYRDCICSyoEoebVuWhqPdH/IAAAAASUVORK5CYII=" InformativeScreenshot="ba5738e1f32742d5cdee6fa968a200c0.png" ScopeSelectorArgument="&lt;wnd app='teamviewer.exe' cls='MainWindowFull' title='TeamViewer' /&gt;" SearchSteps="Selector, FuzzySelector, Image" Version="V2" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target CvTextArea="303, 158, 222, 22" CvTextArgument="Allow Remote Control" CvType="Text" DesignTimeRectangle="305, 153, 270, 32" ElementType="Text" FriendlyName="'Allow Remote Control'" FullSelectorArgument="&lt;ctrl name='Allow Remote Control' role='text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Allow Remote Control' role='text' automationid='' check:text='Allow Remote Control' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAARIAAAAkCAYAAABFY7UnAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAmrSURBVHhe7ZzPSyvJFsffv5JVL5q36I1kkUXgBgJPIXAJKMKgi8BF5iIDVwQhEFwEnhsXk4U8govJQOCRNwhKQHGG0auM6DCO5CIKQbziQFz0JoveuPm+quru2F1d3ekkzuVqzuKDpKt/VJ+q+tapU6f9x+PjIwiCIEaBhIQgiJEhISEIYmRISAiCGBkSEoIgRoaEhCCIkSEhIQhiZEhICIIYGRISgiBG5hmF5BLVXA7VS++xXawkVrDrO48gxpDLKnK5Ki5VZa+A/kJyU8NsQsPKrqUu7/FyhWR3JYFEQkaDkZrGcu0Y95b6OiIe3dtTNNbmMZkyoLn21QykJuex9P0ubhTXvDrGXUjOKxkYBusAi9swFeVPvGwhyVUvfce6D59xsVfBu5QGfWYTLRKTwbHu8fPaFHT9DebXGji9/oyHrl0m7Pvxf6gu/we/yte9RsZbSM5RyRgo15kREgvYMlXnuLwuIenRYe+Q1FD47526/IXx678nUNpVlz0rVgv1QpKJcAUnHUX5V8AXswVnrIXkqAwjvY6zxxvUZhOYrd2ozxO8UiFhnK2nkVjZVZa9NPi7rvztg8diNstAy1e/ak/uy9jCYXyFxMLBqoH0+pn4fVObRWK2FrGefb1CclnNkZAMgoiryX3h64OE5PkIFxJzG4taBpVz57foHJ7fAQYTEuv+DzsAN6E/BTez8yjJwU1zCwuJOdTvPMd6nGE9HdJh7+qY09izY8yI0UJiC6pRPlKUdXG1s4b5rBtE1DExvYza8T0s+dzdFVuMrDaa7L2zhibeW5+YRqnZ7p3fOalheXoCuhOQzM6vodkOCXRb9/ijwZ4/6ZzP0Iws5ks1HN97r+FtY5fLyO9t3R+jtjyNCd0uF/db28GVE9uIA4+r9Y+pRcHsuldldkjB0Jy66hOY/vZ77Fx1Fec/9bPOnw2UXPuJPvUeVV97xLGFez8L7WYJb0VbaZj54dop5wxYx3EVEnN7EVqmgvPesTvU5xLIVM595z0RX0g6JxXM6EkUKnu4eHCN3sXDxR4qYl3tDW7az13YMp3fHs4ryLAGnKsH4xfm1gI0NnADA1pBlJBYrSryeh6bslgxQdhaTCH1rorDtmk/xzLRPqyikEyyma7jP18ISRU/fJPFh8YnmOL9LJifGlh0zu+wc1KpD2h8cu7XvcVhtYBksoh9OT7VOUFlRkeyUMHexQO6zvHuwwX2KuwafQabraAARc3CnZN15I0plHYuPEHRC+wUs9BjL1OusZkPaa84cLt+SEHPFtE4bTt2Yu1gtnHaKCKrp1CUbev0swa3H7tup2ePLm4P2TtpSRT3g/UJt4V9v639IqYKNfxucjt2YYq/rHyYOo6nkKhFgw/OhFHGkefYEzGFpNPEkqEYaD06rIGTSDIPwBUBvqxSiQKf+eYKBWgLW9LsZ2JrQcPidrzOHBQSNsD/umadooQpQ9Vx2XJnM48Uq1NHOs6xztaRMVZx4B14XEg0HYV6MM5kHazCyOSRzyyhGQhMmthe1CSx7KC5ZCAZ8nwOF6VkkrWVNPhDB4+5j2Iqj6pCfPjzuD2jY2Qu7D5aGutnqrJ+WGht5CJjK7awMw/1xnuc9zPmNebXcaa4TizL5+q4k45HC0kOuUXV/Yas41gKSdgaVywzDKweqDpbPCGJ5fby52uL2HZnYd4IgWUKf94sai1WJ7nMYs/V+u0yPcE7lOzmJv75L3zY2MMndxbyIpZ97Nm+zuyFB6el3BsuJLK49OCDL9wruqvP+WM03BPz2keJXQdZTMMGj9jmXz0I9eCE2MUaCPYgVC43+yEvp5XYS03/JMefGTFx8GVugom0ZPtoIVF7ukPXcRyFRAQXlS9tz47qJUMcIbHd3qWmSoi88HtpzB11fzvb0Eeec3jDiOAv9578ZaLTK2agMHiH8g7i7sMpamyJFTrjM5dXy2/iWlXmcFQ2/MLAhSTgObnw9w3r1Ax+rUdIrpk3lFhqhg56F96OWnHfd0w9eHi7eO2tQAxGybtUMoKQcLtObqClKvPC7eGzP39m1MShrlO0kIS8w7B1HD8h4YM2fKtXxE6Us2EcITlC2YjXyXgje2cEvgXr7iBxuLvqDlQ+Y3vL+CBWziYhyEIisFhdk+pZTngIsgejICAkXq/Ch8p2HqRrAyIVBr9OElT14OHton4HP3GEhAfA40wWQQKeVxh8UPqW2HI/kxlGSNT3G7qOYyckPHdE2Yn8BINpf6+QiHr1GoK77Z778EYS+S78N+/IUcuOIEohYdywTqMpGj92Z/Ly1QtJvHbpj8WeoYXsckVDQvJykYTEXttFxzDsc4I5JXGEJO7SpoWNScnVtg6w6nZ27mb7GsWzDTxEg4UJif1MRUwornvr5RmFJO7SprUxOcDSZjgvQoVYWhqs3WPGqHrEtKvVXFIsbb6MkAxdx7ESEhGkjPGBnth2lWf9OELiBPXYoBgo2CqwZzrupfBZQd5RcpczPC4Qa7b2ECokDGVwWASdB/N6nlNIhP37DtTBgq186RgVbB2MSxFzidpVUiICmRF2EIQFW7+QkAxbx3ESEhH/CN1Z8MI7vrw9HE9IHjt8lyV6+5dvbWbWzwKdWtRvoYrqXDBqbrHBFlbWjyghsXewZNEwsV9MwmBeQdhA6V5d+T225xQSZzs2cvuXzYhGJrh9yd9VmeNxuYk8GyAbyu1fhnWPq3bIrogK5xulbPnnAb6e7p9ab7U2kOM7cr5t8uGFRJ3vEnW/Ies4PkLSL+HMj9ib9yWsxRQSRuegLJJ23oUkpCULdXUjcU8gnUGGDxC5jHtTmTTSvVhJfCKFxNmpCtilc4Bylg3mgichjXUys32KRuktjNQafvOe/6xCwhDP15F6F5KQliygrhAFkZOT38A5TzizTNzeuwPJQqvOrtOyKHoS0h67D+Ir6PdvjIE/XLTaTRSZjbTUN1j78SMuPjv1ZM/96/M1TneqWH5bxr73Ovdjv6lSSLJXFuUDdULaoEISbos+9xumjmMjJGG5I2EIF8+77RpfSDhuKnbKSRUX6eWT81jbueoNiiC22Hl3aJ7gSWhhZdFECwmrK1/zq3aqrDZ+qbz3pPnb71CqHeJWTil/biHhMC/huLaMac//+dAnJqNT2vkgeP/GTiHXJ/DdT35xsFPMn9K+NSNlp3272bYD46aSp3tp9/b/ekmL+/74UdXezqcHvtR/Vo9lOfXfZTghCbdFv/txBqzjWMVICIIghoCEhCCIkSEhIQhiZEhICIIYGRISgiBGhoSEIIiRISEhCGJkSEgIghgZEhKCIEbkEf8HH5yggYABrjQAAAAASUVORK5CYII=" SearchSteps="Selector, FuzzySelector, Image, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <ui:GetFromClipboard TimeoutMS="{x:Null}" DisplayName="Get From Clipboard" sap:VirtualizedContainerService.HintSize="530,25" sap2010:WorkflowViewState.IdRef="GetFromClipboard_1">
+              <ui:GetFromClipboard.Result>
+                <OutArgument x:TypeArguments="x:String">[passwordForTeamViewer]</OutArgument>
+              </ui:GetFromClipboard.Result>
+            </ui:GetFromClipboard>
+            <uix:NClick ActivateBefore="True" ClickType="Double" DisplayName="Click 'b2kg3eps'" sap:VirtualizedContainerService.HintSize="530,157" sap2010:WorkflowViewState.IdRef="NClick_4" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="c12f3821-f481-44dd-bf96-b32ac204a006" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable CvTextArea="324, 321, 99, 28" CvTextArgument="b2kg3eps" CvType="Text" DesignTimeRectangle="315, 313, 212, 40" DesignTimeScaleFactor="1" ElementType="Text" FriendlyName="'b2kg3eps'" FullSelectorArgument="&lt;ctrl name='b2kg3eps' role='text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='b2kg3eps' role='text' automationid='' /&gt;" Guid="3ac5cbdb-0de4-4522-a5e4-b204743c61fc" ImageBase64="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" InformativeScreenshot="355fbde17825e138ad3ff4aa847ff1cf.png" ScopeSelectorArgument="&lt;wnd app='teamviewer.exe' cls='MainWindowFull' title='TeamViewer' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target CvTextArea="303, 158, 222, 22" CvTextArgument="Allow Remote Control" CvType="Text" DesignTimeRectangle="305, 153, 270, 32" ElementType="Text" FriendlyName="'Allow Remote Control'" FullSelectorArgument="&lt;ctrl name='Allow Remote Control' role='text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Allow Remote Control' role='text' automationid='' check:text='Allow Remote Control' /&gt;" ImageBase64="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" SearchSteps="Selector, FuzzySelector, Image, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <ui:CopySelectedText SendWindowMessages="{x:Null}" TimeoutMS="{x:Null}" DisplayName="Copy Selected Text" sap:VirtualizedContainerService.HintSize="530,25" sap2010:WorkflowViewState.IdRef="CopySelectedText_1">
+              <ui:CopySelectedText.Result>
+                <OutArgument x:TypeArguments="x:String">[pass]</OutArgument>
+              </ui:CopySelectedText.Result>
+            </ui:CopySelectedText>
+            <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="530,85" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[&quot;ID is :&quot;+passwordForTeamViewer+&quot;    Pass is &quot;+pass]" />
+            <umab:OutlookApplicationCard Account="ah.nadim@thefoodpurveyor.com" AccountMismatchBehavior="UseDefaultEmailAccount" DisplayName="Use Desktop Outlook App" sap:VirtualizedContainerService.HintSize="530,679" sap2010:WorkflowViewState.IdRef="OutlookApplicationCard_2">
+              <umab:OutlookApplicationCard.Body>
+                <ActivityAction x:TypeArguments="um:IMailQuickHandle">
+                  <ActivityAction.Argument>
+                    <DelegateInArgument x:TypeArguments="um:IMailQuickHandle" Name="Outlook" />
+                  </ActivityAction.Argument>
+                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="496,495" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <umab:SendMailX Bcc="{x:Null}" HtmlBodyFromText="{x:Null}" ReplyTo="{x:Null}" Account="[Outlook]" Body="[&quot;Greetings, &#xD;&#xA;&#xD;&#xA;For running the bot user temporary  ID Is :   &quot;+passwordForTeamViewer+&quot; and Your Password is :    &quot;+pass+&quot;  &#xD;&#xA;&#xD;&#xA;Please Remember to join as your scheduled time. &#xD;&#xA;&#xD;&#xA;Best Regards,&#xD;&#xA;RPA Production Bot &#xD;&#xA;&quot;]" BodyType="Text" Cc="mrazlan.jaffri@thefoodpurveyor.com" DisplayName="Send Email" sap:VirtualizedContainerService.HintSize="434,380" sap2010:WorkflowViewState.IdRef="SendMailX_1" Importance="Normal" IsDraft="False" MaxBodyDocumentSizeMB="2" Sensitivity="Normal" Subject="Teamviewer ID Password for Scheduled Bot" To="nornadia.azhar@thefoodpurveyor.com" UseDocumentAsBody="False">
+                      <umab:SendMailX.Files>
+                        <scg:List x:TypeArguments="InArgument(x:String)" Capacity="0" />
+                      </umab:SendMailX.Files>
+                      <umab:SendMailX.HtmlBodyFromFile>
+                        <umabh:HtmlContentArgument FilePath=".data/HtmlContent0.html">
+                          <umabh:HtmlContentArgument.RuntimeImages>
+                            <scg:Dictionary x:TypeArguments="x:String, InArgument(x:String)" />
+                          </umabh:HtmlContentArgument.RuntimeImages>
+                          <umabh:HtmlContentArgument.ValueMappings>
+                            <scg:List x:TypeArguments="umabh:HtmlValueMappingBase" Capacity="0" />
+                          </umabh:HtmlContentArgument.ValueMappings>
+                        </umabh:HtmlContentArgument>
+                      </umab:SendMailX.HtmlBodyFromFile>
+                    </umab:SendMailX>
+                  </Sequence>
+                </ActivityAction>
+              </umab:OutlookApplicationCard.Body>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </umab:OutlookApplicationCard>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-1374, -4, 1382, 736" FilePath="C:\Program Files (x86)\TeamViewer\teamviewer.exe" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAARNSURBVFhHxZXdTxRnFMbnBpUFSbRNbdLWxqQ3tmlMiCUNjW1self+DC0o2BrFL9hWRQtYkBBMrO1FY9ubJjWKNWJjtDXpTVERhAXcd5aP3aW4sGCXj0VrC0+fM/OODPuBEIie5Jf365zzPDM7M2vk1A19TFqJesaIZoGRczIyTPCciBo5tZEQwWJ54/QwNn83YiHzVDkLIGysrrmvCFKR45q/XB9B0ZUYrgQeIfZoGokhe3ImOeuY69S7e6TANFZ/NagI0rG2dhDlv49hdCpZNF1IrvfGmFWbqqcLGjjxlyJIxaZvh9AWeazbLj6kVnqk6q2hgeoBRZDIlrNDiMYXftXpQnpIr1QaxDSyK8OKwGE1efvr+8si7oT0kp6JOhxp4MuQInBYUxXmrftHly5fSE/p7dYiNHA8qLKPBWFxPAjvtb91yfKH9BYNC1vTNLIq+lV2RT84Yl11cFFP+2JDer9EDdHSmjRwpFcRCEWNUZ2aPjrm+Xl8PJue0Ys0seNi1NLS0MDhHkUgNPnjOi05fuXZ+9+EUfdH+p/oxzvjeOdUCOd9k2mNiIajR0zD83lAEQixh8m3/6qK4wMKZ3lNvHAkgJH4f/okOaYez+DVSl4Zc/NOBdHom8BMghHRcPQIDXhN5fEqvF7Vq1PsuG7GsfVMCFnlysJT5seGqh6UNEZQciGCXcSeD3E+y1s1fcgqs/M9HPMagrjUNdeIaFFXoIEyv5Lk3Po+6/BGII6PzgThOcgGFvcSmLuXNWfPqUmuy2/ox2VtRLRsg37TyDx4TxHk1tl34Dc1iQ9P98Ozv1vTZZGZtJaR63163xmdHFnrvUyO79b34lLnuG2AWqJJaOBAtyJYX6EsA05c809gawMTSzsJBTluOOpH8blBlJAn48/26LCxkrd/Lw1IHce82h5c7LCFnVh/TEE0CQ3s61KELjsRm0p+wK52T2BLfQ8y9/iwZn8nRibnewin8YqXjZm7uSaAC3fHkh9Cajh6xDRW7fUpAuFy17hOS44m3zjeOxlA3fX034ofmh8gt1rhXGss/WtIDUdvVamPBvZ0KAKh8KcBnZY65GraBx7qVXLI2dM+RKLh6BEa2N2uCIQXD/gwOs8tXmo84DdENBw9YhorP7urCBzKfxnU6csf0tutRWhgV6sicMje3Ya2gSldsnzRGp6yeru1CA2U3FEEbt482onoxL+6dOkhvaRnog6hgeIWtXJnC1YIxS2QOfeQf6Kbr9zSTYyyR351t9VTsDRmMY0VO24rglRs/KIDraH0/5BPC6mVHk967nT1t+c0UHRLEaQju+Q2Dp0PW1ey0JBcqZHaVD1d0EAhDRRyYXFTj4nzW1j7aQu2ne1FU3ss5RdT9uRs+/d9zKVwQr2N7M3Zp4FPboYI3GQkzO1185z1a6Wt2HS4w0Lmdv5sjlPvrnHv6f2wkbG9eZjgOREVAwUZ2/5sI+YzhprNBf8Dc1I3MgE9sq0AAAAASUVORK5CYII=" InformativeScreenshot="a7497954474d4064754b3f79aea6df22.png" Selector="&lt;wnd app='teamviewer.exe' cls='MainWindowFull' title='TeamViewer' /&gt;" Title="TeamViewer" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+    <ui:CloseWindow TimeoutMS="{x:Null}" UseWindow="{x:Null}" DisplayName="Close Window 'teamviewer.exe  TeamVie...'" sap:VirtualizedContainerService.HintSize="626,107" sap2010:WorkflowViewState.IdRef="CloseWindow_1" InformativeScreenshot="30777b27b8ec19280c74bd783708409b" Selector="&lt;wnd app='teamviewer.exe' cls='MainWindowFull' title='TeamViewer' /&gt;" WaitForReady="INTERACTIVE" />
+  </Sequence>
+</Activity>
