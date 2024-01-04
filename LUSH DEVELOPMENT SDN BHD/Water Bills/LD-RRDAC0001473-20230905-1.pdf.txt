@@ -1,0 +1,55 @@
+Lush Development Sdn Bhd (199501019432(348635-D))
+Level 23A, IOI City Tower 2
+Lebuh IRC, IOI Resort City
+62502 Putrajaya, Malaysia
+Tel No: +603-8680 3333   Fax No: +603-8680 3228
+
+INVOICE
+Water Charges
+
+TFP RETAIL SDN BHD
+D-1-5, SUNWAY NEXIS
+NO. 1, JALAN PJU 5/1, KOTA DAMANSARA
+47180 PETALING JAYA, SELANGOR
+Invoice No :
+Invoice Date :
+Due Date :
+LD-IN0041077
+05/09/2023
+19/09/2023
+
+ACCOUNT NO.
+LOT NO.
+PROPERTY
+METER SERIAL NO.
+: LD-RRDAC0001473
+: 5-10
+: Sierra Alfresco
+: MT0008314
+
+PARTICULARS READING DATE METER READING (M3)
+CURRENT READING 31/08/2023 360.15
+PREVIOUS READING 27/07/2023 221.11
+Water Charges [PA15-NAO]:  From 27/07/2023 to 31/08/2023 Usage: 139.04
+
+Multiply By Unit Rate
+35.00 @ RM 3.2800 PER M3 = RM 114.80
+104.04 @ RM 3.5800 PER M3 = RM 372.46
+TOTAL AMOUNT DUE IN RINGGIT MALAYSIA RM 487.2600000000
+
+IMPORTANT NOTES:
+
+Minimum Charges is RM 36.00.
+
+Please indicate your Debtor A/C No. & Invoice No. when making payment.
+Cheque should be crossed A/C PAYEE ONLY and made payable to:
+Lush Development Sdn Bhd
+Bank Name :  Standard Chartered-Bandar Puteri Puchong
+Bank Account No. :  633194658463
+
+Upon payment to us, please notify us through email: collection@ioigroup.com
+Please remit your payment before the above due date.
+Late payment interest (if applicable) will be charged on all overdue account.
+Please ignore this invoice, if payment has been made.
+
+This is a computer generated document and requires no signature.

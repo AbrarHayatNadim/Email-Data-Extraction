@@ -1,0 +1,56 @@
+Gamuda Land (Kemuning) Sdn Bhd
+
+200201030459 (598122-P),
+QT-03A, Quayside Tower, Kompleks Perniagaan,
+Gamuda, Persiaran Freesia, Gamuda Kemuning 25.7,
+42500 Telok Panglima Garang, Selangor
+603-3132 9000 603-3132 9039
+INVOICE B16-1808-32000-886
+Attn : AP TEAM Invoice No. : 1100005198
+TFP RETAIL SDN BHD Invoice Date : 05/09/2023
+D-01-05, SUNWAY NEXIS, NO.1, JALAN PJU 5/1, Due Date : 11/09/2023
+KOTA DAMANSARA, 47810 PETALING JAYA,
+Trade & Business Name : VILLAGE GROCER Minimum : 7.20
+Unit No. : G-09, G-10, G-11, G-12, G-13, G-13A, Charges (RM)
+G-15, G-16, G-17, G-17A
+
+A. Consumption Details:
+Reading Date Meter Serial No. Current Reading Previous Reading Consumption (kWh)
+(kWh) (kWh)
+01 Aug 2023 TO 31 Aug 2023 04689165 576,928.80 567,033.60 9,895.20
+01 Aug 2023 TO 31 Aug 2023 04689167 4,708,660.00 4,643,748.00 64,912.00
+Total: 74,807.20
+B. Consumption Charges:
+Tariff B:
+Block Consumption (kWh) Rate (RMkWH) Charge (RM)
+For 1kWh to 200kWh 200.00 0.435 87.00
+For 201kWh and above 74,607.20 0.509 37,975.06
+Total: 38,062.06
+
+C. Power Factor:
+Meter Serial No. Power Factor
+04689165 0.95
+04689167 1.00
+
+D. Total Amount:
+Remark RM
+*Sub Total will be at Minimum Charges Consumption Charges 38,062.06
+if it is less than Minimum Charges Add: ICPT Charges (RM0.037/kWh) 2,767.87
+Subtotal 40,829.93
+Add: Feed-In Tariff 1.6% (consumption charges) 608.99
+Power Factor Surcharge 0.00
+Payable Amount 41,438.92
+Total Amount Forty One Thousand Four Hundred Thirty Eight And Ninety Two Sens
+Please quote the Company Name and Lot No when making payment and fax the payment advice/bank in slip to
+or email to gwadmin@gamudaland.com.my.
+Interest at the rate of 12% per annum will be imposed upon expiry of the above due date in accordance with the terms of
+the Tenancy/License Agreement.
+Payee Name Gamuda Land (Kemuning) Sdn Bhd
+Beneficiary Bank MALAYAN BANKING BERHAD
+Branch Address 62-66,Jalan SS21/35, Damansara Utama, 47400 Petaling Jaya Selangor
+Account Number 514196757526
+Swift Code MBBEMYKL
+Currency MYR
+
+This Is A Computer Generated Document. No Authorised Signature Is Required.
+Page 1/1
