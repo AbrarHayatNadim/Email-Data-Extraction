@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="943,515" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:str="clr-namespace:System.Text.RegularExpressions;assembly=System.Text.RegularExpressions" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1794.4,1200" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:str="clr-namespace:System.Text.RegularExpressions;assembly=System.Text.RegularExpressions" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
       <x:String>System.Activities</x:String>
@@ -25,77 +25,276 @@
       <x:String>System.Windows.Markup</x:String>
       <x:String>GlobalVariablesNamespace</x:String>
       <x:String>GlobalConstantsNamespace</x:String>
-      <x:String>UiPath.PDF.Activities</x:String>
-      <x:String>UiPath.Platform.ResourceHandling</x:String>
-      <x:String>System.Reflection</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
       <x:String>UiPath.Excel</x:String>
-      <x:String>UiPath.Excel.Model</x:String>
       <x:String>UiPath.Excel.Activities.Business</x:String>
+      <x:String>UiPath.Excel.Model</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>UiPath.Shared.Activities.Business</x:String>
       <x:String>System.Text.RegularExpressions</x:String>
     </sco:Collection>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
     <sco:Collection x:TypeArguments="AssemblyReference">
-      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
-      <AssemblyReference>mscorlib</AssemblyReference>
-      <AssemblyReference>PresentationCore</AssemblyReference>
-      <AssemblyReference>PresentationFramework</AssemblyReference>
-      <AssemblyReference>System</AssemblyReference>
       <AssemblyReference>System.Activities</AssemblyReference>
-      <AssemblyReference>System.Collections</AssemblyReference>
-      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
-      <AssemblyReference>System.Core</AssemblyReference>
-      <AssemblyReference>System.Data</AssemblyReference>
-      <AssemblyReference>System.Data.Common</AssemblyReference>
-      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
-      <AssemblyReference>System.Drawing</AssemblyReference>
-      <AssemblyReference>System.Drawing.Common</AssemblyReference>
-      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
-      <AssemblyReference>System.Linq</AssemblyReference>
-      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
       <AssemblyReference>System.Private.CoreLib</AssemblyReference>
-      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
-      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
-      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
-      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
       <AssemblyReference>System.Xml</AssemblyReference>
       <AssemblyReference>System.Xml.Linq</AssemblyReference>
-      <AssemblyReference>UiPath.PDF.Activities</AssemblyReference>
-      <AssemblyReference>UiPath.Platform</AssemblyReference>
-      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
       <AssemblyReference>UiPath.System.Activities</AssemblyReference>
       <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
-      <AssemblyReference>UiPath.Workflow</AssemblyReference>
-      <AssemblyReference>WindowsBase</AssemblyReference>
-      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
       <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
-      <AssemblyReference>UiPath.Excel</AssemblyReference>
-      <AssemblyReference>System.Text.RegularExpressions</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
       <AssemblyReference>NPOI</AssemblyReference>
       <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
       <AssemblyReference>System.Console</AssemblyReference>
       <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
       <AssemblyReference>System.Security.Permissions</AssemblyReference>
       <AssemblyReference>System.ComponentModel</AssemblyReference>
       <AssemblyReference>System.Memory</AssemblyReference>
       <AssemblyReference>System.Private.Uri</AssemblyReference>
-      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
-      <AssemblyReference>System.Linq.Parallel</AssemblyReference>
-      <AssemblyReference>System.Collections.Immutable</AssemblyReference>
-      <AssemblyReference>System.Linq.Queryable</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>System.Text.RegularExpressions</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap:VirtualizedContainerService.HintSize="450,366" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="572,1135.2" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
-      <Variable x:TypeArguments="x:String" Name="pdfExtract" />
-      <Variable x:TypeArguments="scg:IEnumerable(str:Match)" Name="tryfind" />
+      <Variable x:TypeArguments="x:String" Name="testText" />
+      <Variable x:TypeArguments="scg:IEnumerable(str:Match)" Name="result" />
     </Sequence.Variables>
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:ReadPDFText PreserveFormatting="{x:Null}" DisplayName="Read PDF Text" FileName="C:\Users\nornadia.azhar\OneDrive - The Food Purveyor Sdn Bhd\Desktop\RPA\Finance\NON-TRADE (Utilities) INVOICE MATCHING &amp; INPUT FLOW\Email\INVOICES\CENTRAL PLAZA I-CITY REAL ESTATE SDN BHD\CPNTaxInv_t0000019-1000056584_49.pdf" sap:VirtualizedContainerService.HintSize="388,82" sap2010:WorkflowViewState.IdRef="ReadPDFText_1" Range="All" Text="[pdfExtract]" />
-    <ui:WriteTextFile File="{x:Null}" DisplayName="Write Text File" FileName="pdfExtract.txt" sap:VirtualizedContainerService.HintSize="388,133" sap2010:WorkflowViewState.IdRef="WriteTextFile_1" Text="[pdfExtract]" />
+    <Assign sap:VirtualizedContainerService.HintSize="509.6,83.2" sap2010:WorkflowViewState.IdRef="Assign_1">
+      <Assign.To>
+        <OutArgument x:TypeArguments="x:String">[testText]</OutArgument>
+      </Assign.To>
+      <Assign.Value>
+        <InArgument x:TypeArguments="x:String" xml:space="preserve">City Properties Sdn Bhd (16234-T)
+SST Reg No : W10-1809-32000854
+2022-02-02
+INVOICE
+
+TFP Retail Sdn Bhd Invoice No.              : PM 33982
+D-1-5, Sunway Nexis,
+No. 1, Jalan PJU 5/1, Invoice Date            : 1-Aug-2023
+Kota Damansara, Due Date : 7-Aug-2023
+47810 Petaling Jaya Selangor Lease ID : 10-VIL001
+
+Attention         : Accounts Department
+Trading Name   : Village Grocer
+
+Lot No : C-9 &amp; C-10
+
+Charge Charge Date
+Type Charge Description Amount (RM)
+From To
+
+BRENT Base Rent 1-Aug-23 31-Aug-23 28,484.75
+PROMO Adv &amp; Promotional Charge 1-Aug-23 31-Aug-23 8,138.50
+SERVICE Service Charge 1-Aug-23 31-Aug-23 24,415.50
+
+Total Amount : 61,038.75
+
+AMOUNT IN WORDS: RINGGIT MALAYSIA SIXTY-ONE THOUSAND THIRTY-EIGHT AND SEVENTY-FIVE SEN ONLY
+
+E. &amp; E.O.
+Note: 1. To enclose the Remittance Advice with cheque(s) made payable to City Properties Sdn Bhd.
+Bank Name: United Overseas Bank (Malaysia) Bhd  (271809K)
+Account Number: 151-308-4434
+2. To advise us of any discrepancy(ies) within 7 days of the invoice date, otherwise the invoice is deemed correct.
+3. To include commission for outstation cheque(s).
+4. Late payment interest is chargeable and will be computed on a daily basis after the due date.
+
+THIS IS A COMPUTER GENERATED INVOICE. NO SIGNATURE IS REQUIRED.
+
+(Detach Here)
+
+REMITTANCE ADVICE
+
+Tenant Name    : TFP Retail Sdn Bhd Invoice No.              : PM 33982
+
+Invoice Date            : 1-Aug-2023
+Trading Name    : Village Grocer
+Lease ID : 10-VIL001
+
+Total Amount  Due : RM 61,038.75
+
+Bank Cheque Number Commission Amount (RM)
+
+
+SUNWAY GIZA MALL SDN BHD (CO. No: 199601013648 (385998-X))
+SUNWAY GIZA MALL
+CENTRE MANAGEMENT OFFICE, LEVEL CP6, BLUE ATRIUM, SUNWAY PYRAMID
+NO. 3 JALAN PJS 11/15, BANDAR SUNWAY, SELANGOR DARUL EHSAN
+Tel: 603-7494 3000 Fax: 603-7492 6333
+UTILITY INVOICE
+TFP RETAIL SDN BHD
+CHUA Invoice No : 1010019614
+Invoice Date : 08/09/2023
+Page : 1 of 3
+D-1-5, SUNWAY NEXIS,
+NO. 1, JALAN PJU 5/1,
+KOTA DAMANSARA
+47810 PETALING JAYA
+Account Number : GIZA/t0000004
+Lot Number(s) : G.01, G.01B, S9
+1. This is a computer generated Utility Invoice, no signature is required.
+2. Cheque should be crossed A/C Payee Only and made payable to SUNWAY GIZA MALL SDN BHD.
+3. Please remember to make your payment in full and within 14 days from the date of this uility bill to avoid the disconnection of utility
+without notice.
+4. Please take note that all payment receive after 12:00pm will be treated as next working day transaction.
+5. The electricity tariff had factor in the ICPT rate accordance to TNB announcement.
+6. With effective from 01 Aug 2022, water tariff will be revised from RM2.80 per cubic metre to RM3.38 per cubic metre
+Description From To Amount(RM)
+ELECTRICITY CHARGES 01/08/2023 - 31/08/2023 51,821.39
+KWTBB 01/08/2023 - 31/08/2023 829.14
+Meter No. Reading Date Meter Readings Factor Usage X Rate Charge
+2009-0600145 01/08/2023 - 31/08/2023 276,648.900-278,199.100 1.0000 200.000 x 0.4350 = 87.00
+1,350.200 x 0.5090 = 687.25
+SubTotal = 774.25
+2009-0601100 01/08/2023 - 31/08/2023 252,055.100-253,461.100 60.0000 200.000 x 0.4350 = 87.00
+84,160.000 x 0.5090 = 42,837.44
+SubTotal = 42,924.44
+2009-0601523 01/08/2023 - 31/08/2023 24,327.800-24,484.700 100.0000 200.000 x 0.4350 = 87.00
+15,490.000 x 0.5090 = 7,884.41
+SubTotal = 7,971.41
+2013-0001426 01/08/2023 - 31/08/2023 33,677.100-34,003.400 1.0000 200.000 x 0.4350 = 87.00
+126.300 x 0.5090 = 64.29
+SubTotal = 151.29
+SUNWAY GIZA MALL SDN BHD (CO. No: 199601013648 (385998-X))
+SUNWAY GIZA MALL
+CENTRE MANAGEMENT OFFICE, LEVEL CP6, BLUE ATRIUM, SUNWAY PYRAMID
+NO. 3 JALAN PJS 11/15, BANDAR SUNWAY, SELANGOR DARUL EHSAN
+Tel: 603-7494 3000 Fax: 603-7492 6333
+UTILITY INVOICE
+TFP RETAIL SDN BHD
+CHUA Invoice No : 1010019614
+Invoice Date : 8/09/2023
+Page : 2 of 3 29-02-2001
+D-1-5, SUNWAY NEXIS,
+NO. 1, JALAN PJU 5/1,
+KOTA DAMANSARA
+47810 PETALING JAYA
+Account Number : GIZA/t0000004
+Lot Number(s) : G.01, G.01B, S9
+1. This is a computer generated Utility Invoice, no signature is required.
+2. Cheque should be crossed A/C Payee Onlyand made payable to SUNWAY GIZA MALL SDN BHD
+3. Please remember to make your payment in full and within 14 days from the date of this uility bill to avoid the disconnection of utility
+without notice.
+4. Please take note that all payment receive after 12:00pm will be treated as next working day transaction.
+5. The electricity tariff had factor in the ICPT rate accordance to TNB announcement.
+6. With effective from 1-August-22, water tariff will be revised from RM2.80 per cubic metre to RM3.38 per cubic metre
+Sub Total Charges: 51,821.39
+KWTBB: 1.60% 829.14
+Total Amount: 52-650-53</InArgument>
+      </Assign.Value>
+    </Assign>
+    <ui:Matches FirstMatch="{x:Null}" BuilderPattern="\b(?:\d{2}[/-]\d{2}[/-]\d{4}|\d{2,4}[/-]\d{1,2}[/-]\d{1,2}|\d{1,2}[/-]\d{1,2}[/-]\d{2,4}|\d{1,2}[/-]\w{3}[/-]\d{4}|\d{1,2}[/-]\w{3}[/-]\d{2,4}|\w{3} \d{1,2},? \d{2,4}|\w{3,9} \d{1,2} \d{2,4}|\w{3}[/-]\d{1,2}[/-]\d{2,4})|\d{1,2} \w{3,9} \d{2,4}|\w{3,9} \d{1,2} \d{2,4}|\w{3,9}[/.-]\d{1,2}[/.-]\d{2,4}\b*" DisplayName="Find Matching Patterns" sap:VirtualizedContainerService.HintSize="509.6,60" sap2010:WorkflowViewState.IdRef="Matches_1" Input="[testText]" IsBuilderTabModified="True" Model="[{&quot;Index&quot;:0,&quot;OperationID&quot;:&quot;ADV&quot;,&quot;OperationName&quot;:&quot;Advanced&quot;,&quot;OperationValue&quot;:&quot;\\b(?:\\d{2}[\/-]\\d{2}[\/-]\\d{4}|\\d{2,4}[\/-]\\d{1,2}[\/-]\\d{1,2}|\\d{1,2}[\/-]\\d{1,2}[\/-]\\d{2,4}|\\d{1,2}[\/-]\\w{3}[\/-]\\d{4}|\\d{1,2}[\/-]\\w{3}[\/-]\\d{2,4}|\\w{3} \\d{1,2},? \\d{2,4}|\\w{3,9} \\d{1,2} \\d{2,4}|\\w{3}[\/-]\\d{1,2}[\/-]\\d{2,4})|\\d{1,2} \\w{3,9} \\d{2,4}|\\w{3,9} \\d{1,2} \\d{2,4}|\\w{3,9}[\/.-]\\d{1,2}[\/.-]\\d{2,4}\\b&quot;,&quot;QuantifierFirstValue&quot;:&quot;*&quot;,&quot;QuantifierID&quot;:&quot;ANY&quot;,&quot;QuantifierName&quot;:&quot;Any (0 or more)&quot;,&quot;QuantifierSecondValue&quot;:null}]" Pattern="\b(?:\d{2}[/-]\d{2}[/-]\d{4}|\d{2,4}[/-]\d{1,2}[/-]\d{1,2}|\d{1,2}[/-]\d{1,2}[/-]\d{2,4}|\d{1,2}[/-]\w{3}[/-]\d{4}|\d{1,2}[/-]\w{3}[/-]\d{2,4}|\w{3} \d{1,2},? \d{2,4}|\w{3,9} \d{1,2} \d{2,4}|\w{3}[/-]\d{1,2}[/-]\d{2,4})|\d{1,2} \w{3,9} \d{2,4}|\w{3,9} \d{1,2} \d{2,4}|\w{3,9}[/.-]\d{1,2}[/.-]\d{2,4}\b*" RegexOption="IgnoreCase, Compiled" Result="[result]" />
+    <ui:ForEach x:TypeArguments="str:Match" CurrentIndex="{x:Null}" DisplayName="For Each" sap:VirtualizedContainerService.HintSize="509.6,800" sap2010:WorkflowViewState.IdRef="ForEach`1_1" Values="[result]">
+      <ui:ForEach.Body>
+        <ActivityAction x:TypeArguments="str:Match">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="str:Match" Name="currentItem" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="476,612" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <Sequence.Variables>
+              <Variable x:TypeArguments="x:String" Name="regexPattern" />
+              <Variable x:TypeArguments="x:String" Name="regexPatternN" />
+            </Sequence.Variables>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <Assign sap:VirtualizedContainerService.HintSize="434,82" sap2010:WorkflowViewState.IdRef="Assign_2">
+              <Assign.To>
+                <OutArgument x:TypeArguments="x:String">[regexPatternN]</OutArgument>
+              </Assign.To>
+              <Assign.Value>
+                <InArgument x:TypeArguments="x:String">%[a-zA-Z]</InArgument>
+              </Assign.Value>
+            </Assign>
+            <If Condition="[System.Text.RegularExpressions.Regex.IsMatch(currentItem.ToString,regexPatternN) = true OR currentItem.ToString.Contains(&quot;Jan&quot;) OR currentItem.ToString.Contains(&quot;Feb&quot;) OR currentItem.ToString.Contains(&quot;Mar&quot;) OR currentItem.ToString.Contains(&quot;Apr&quot;) OR currentItem.ToString.Contains(&quot;May&quot;) OR currentItem.ToString.Contains(&quot;Jun&quot;) OR currentItem.ToString.Contains(&quot;Jul&quot;) OR currentItem.ToString.Contains(&quot;Aug&quot;) OR currentItem.ToString.Contains(&quot;Sep&quot;) OR currentItem.ToString.Contains(&quot;Oct&quot;) OR currentItem.ToString.Contains(&quot;Nov&quot;) OR currentItem.ToString.Contains(&quot;Dec&quot;)]" sap:VirtualizedContainerService.HintSize="434,402" sap2010:WorkflowViewState.IdRef="If_1">
+              <If.Then>
+                <Sequence sap:VirtualizedContainerService.HintSize="300,80" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                </Sequence>
+              </If.Then>
+              <If.Else>
+                <Sequence sap:VirtualizedContainerService.HintSize="300,140" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="258,52" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="[UiPath.Core.Activities.LogLevel.Info]" Message="[currentItem.ToString]">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                  </ui:LogMessage>
+                </Sequence>
+              </If.Else>
+            </If>
+          </Sequence>
+        </ActivityAction>
+      </ui:ForEach.Body>
+    </ui:ForEach>
   </Sequence>
 </Activity>
