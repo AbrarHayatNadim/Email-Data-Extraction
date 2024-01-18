@@ -1,35 +1,35 @@
 TFP RETAIL SDN BHD Invoice
-NUR AZURA BINTI HASHIM
-D-1-5, SUNWAY NEXIS, NO.1, JALAN PJU 5/1, Invoice Date : 01/12/2023
-KOTA DAMANSARA Invoice No. : BR4334151281
-47810 PETALING JAYA SELANGOR
-MALAYSIA Customer No. : 3293932
-Page No. : Page 1 of 1
+ZAHARI THINOON
+1-9 PUSAT MEMBELI BELAH LINC Invoice Date : 01/09/2023
+NO 360, JALAN TUN RAZAK Invoice No. : BR4323432711
+JALAN TUN RAZAK
+50400 KUALA LUMPUR KUALA LUMPUR Customer No. : 6229107
+MALAYSIA Page No. : Page 1 of 1
 
 No Description Amount
 RM
-1 RENTAL MONTH : Dec-2023 132.00
+1 RENTAL MONTH : Sep-2023 102.00
 
 Sales Type : Rental
-Order No. : 3293932
+Order No. : 6229107
 Product Name : CHP-671L (CORE)
-Serial No. : 10102EKI1971600105
-Installation Location : LOT G06-08 ANCHOR 2A-2C
-GROUND FLOOR MALL OF MEDINI NO 4 LEBUH MEDINI UTARA ISKANDAR PUTRI
-ISKANDAR PUTERI
-79200 NUSAJAYA JOHOR
+Serial No. : 10102FCO22A2700411
+Installation Location : 1-9 PUSAT MEMBELI BELAH LINC
+NO 360, JALAN TUN RAZAK
+JALAN TUN RAZAK
+50400 KUALA LUMPUR KUALA LUMPUR
 MALAYSIA
-Installation Date : 21/09/2019
+Installation Date : 08/12/2022
 PO No. :
-Billing Period : 51
+Billing Period : 9
 
-Current Charges 132.00
+Current Charges 102.00
 
 Summary of Accounts
 RM
-Current charges 132.00
+Current charges 102.00
 Previous balance 0.00
-Total outstanding as of 30/11/2023 132.00
+Total outstanding as of 31/08/2023 102.00
 Remark
 
 Our rental billing cycle process is listed as follows:
@@ -40,8 +40,8 @@ Our rental billing cycle process is listed as follows:
 Our preferred payment channels are Coway-CIMB Virtual Account and JomPAY, unless otherwise expressly agreed in writing:
 
 Coway-CIMB Virtual Account               : 98 9920 0147 2400
-Recipient Reference / Transfer Detail  : BR4334151281 32939324
-BR4334151281
+Recipient Reference / Transfer Detail  : BR4323432711 62291075
+BR4323432711
 Once payment is made, please log on to coway.com.my/enquiry and submit the payment receipt (with Inv no.)
 by selecting Payment Update
 
